@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/../test_helper'
+require File.expand_path(File.dirname(__FILE__) + '/../test_helper')
 require 'ebay/responses/get_ebay_official_time'
 require 'ebay/responses/verify_add_item'
 
